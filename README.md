@@ -18,9 +18,11 @@ A todo list created with ReactJS where data is pulled from a database using PHP 
 * You may need a PHP and MySQL server in order to run the server-side code
 
 ### Create MySQL Table:
-> CREATE TABLE IF NOT EXISTS `notes` (
->   `id` int(11) NOT NULL AUTO_INCREMENT,
->   `title` varchar(255) NOT NULL,
->   `message` text NOT NULL,
->   PRIMARY KEY (`id`)
-> );
+```
+CREATE TABLE IF NOT EXISTS `notes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `message` text NOT NULL,
+  PRIMARY KEY (`id`)
+);
+```
