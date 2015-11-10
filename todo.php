@@ -1,11 +1,11 @@
 <?php 
 
 // Database Config
+// Replace with your own config
 define ( 'DB_HOST', 'localhost' );
 define ( 'DB_USER', 'root' );
 define ( 'DB_PASSWORD', '' );
 define ( 'DB_DB', 'todo' );
-
 
 // The Note Class
 class Note {
@@ -78,4 +78,5 @@ switch ($_SERVER['REQUEST_METHOD']) {
 		echo 'Unknown operation';
 		break;
 }
+
 ?>

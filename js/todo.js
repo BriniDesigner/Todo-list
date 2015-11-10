@@ -122,7 +122,7 @@ var Board = React.createClass({
 		return (
 			<div>
 				<p><button className="btn btn-lg btn-success"
-                        onClick={this.add.bind(null, {title:'add title', message:'...'})}>Create new</button>
+                        onClick={this.add.bind(null, {title:'add title', message:'...'})}>Create New</button>
                         </p>
 				{this.state.notes.map(this.eachNote)}
 			</div>
